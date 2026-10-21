@@ -1,6 +1,6 @@
 # RASEEN Website — Version 2.2
 
-A bilingual Arabic/English multi-page static website designed for GitHub Pages.
+A bilingual Arabic/English multi-page static website designed for GitHub Pages. The homepage places sector highlights immediately after the moving ticker for stronger visibility.
 
 ## Files
 - `index.html` — home page
@@ -29,14 +29,16 @@ The website uses external Google Fonts and Unsplash images, so those resources r
 
 Country-card and study-page photography uses real city photographs from Unsplash. Image credits are not displayed on the website.
 
-## Image use and licensing notes
-- Use photographs only from sources that explicitly permit commercial website use without a paid image licence.
-- Unsplash-hosted photographs in this project are used under the Unsplash License; verify the individual photo page and current terms before publication.
-- The Saudi Red Crescent ambulance image is sourced from Wikimedia Commons and identified there as public domain; the source page should be retained for provenance.
-- Image URLs are intentionally distinct across the homepage sector tiles and the sector catalogue to avoid repeating the homepage Saudi skyline image.
 
+## Internal photo attribution and license notes
 
-## Image provenance and licensing (not displayed in the website UI)
-- Energy sector: “Satorp Total Refinery in Jubail, eastern Province” by Suresh Babunair, Wikimedia Commons, CC BY 3.0. Credit page: https://commons.wikimedia.org/wiki/File:Satorp_Total_Refinery_in_Jubail%2Ceastern_Province_-_panoramio.jpg. If redistributing this photo, preserve attribution and link to the licence; the photo has been used without implying endorsement.
-- Industry sector: industrial refrigerator production line photo by Homa Appliances, Unsplash License (free commercial use under Unsplash License). Source page: https://unsplash.com/photos/a-factory-with-a-lot-of-machines-in-it-5hPe-Tr2wog.
-- Saudi Red Crescent ambulance and other sector images: retain their original source/rights terms; verify each individual source page before commercial publication. The site UI does not show photo-credit labels; the provenance notes are kept here.
+Photo attributions are intentionally not shown in the visitor-facing interface. Retain these notes with the project files and verify each source's current terms before redistributing or publishing:
+
+- Riyadh skyline hero: Unsplash photograph `photo-1757774698963-b23f4b273adc` (Riyadh, Saudi Arabia; free to use under the Unsplash License).
+- SATORP refinery, Jubail: Wikimedia Commons, `Satorp Total Refinery in Jubail, eastern Province - panoramio.jpg` (check the file page for license and attribution requirements).
+- TASNEE industrial facility: Wikimedia Commons, `TASNEE 001.jpg` (check the file page for license and attribution requirements).
+- Saudi dates image: Wikimedia Commons, `Palm dates.jpg` (check the file page for license and attribution requirements).
+- MedTown Hospital, Riyadh: Wikimedia Commons, `MedTown Hospital.jpg`, author Halfalah, CC BY 4.0; attribution is required by the license, so retain this internal note and license link: https://creativecommons.org/licenses/by/4.0/ and source page https://commons.wikimedia.org/wiki/File:MedTown_Hospital.jpg.
+- Portugal, Morocco, and Ethiopia study photography: Unsplash image URLs are embedded in the relevant market-study cards/pages; confirm current Unsplash terms for the selected images.
+
+This internal note does not replace any attribution required by the applicable license. If a license requires attribution in a distributed/public project, keep the required credit in project documentation or another compliant location outside the main visitor-facing visual area.
