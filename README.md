@@ -42,3 +42,8 @@ Photo attributions are intentionally not shown in the visitor-facing interface. 
 - Portugal, Morocco, and Ethiopia study photography: Unsplash image URLs are embedded in the relevant market-study cards/pages; confirm current Unsplash terms for the selected images.
 
 This internal note does not replace any attribution required by the applicable license. If a license requires attribution in a distributed/public project, keep the required credit in project documentation or another compliant location outside the main visitor-facing visual area.
+
+
+## Image licensing notes (not displayed on the website)
+- Energy sector: “Rabigh Power Plant.jpg”, photograph by HUTA Group photographer, Wikimedia Commons, CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Rabigh_Power_Plant.jpg
+- Healthcare sector: “Saudi Hospital Main Building.jpg”, author Yazan.shawahneh, Wikimedia Commons, CC0 1.0. Source: https://commons.wikimedia.org/wiki/File:Saudi_Hospital_Main_Building.jpg
