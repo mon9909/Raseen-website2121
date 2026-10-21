@@ -337,3 +337,25 @@ html[lang="ar"] .hero em, html[lang="ar"] .section-heading em, html[lang="ar"] .
 .index-page .approach-band .steps div{align-items:center;gap:24px;padding:16px 4px}
 .index-page .approach-band .steps p{margin:0;line-height:1.8}
 @media(max-width:760px){.index-page .approach-band .approach-grid{grid-template-columns:1fr;gap:28px}.index-page .approach-band .steps div{padding:13px 0}}
+
+
+/* RASEEN refinement: homepage sector preview and distinct capability detail pages */
+.homepage-sector-preview { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.homepage-sector-preview .sector-tile { min-height: 300px; }
+.capability-detail .capability-specific { position: relative; padding: clamp(24px, 4vw, 48px); border: 1px solid rgba(20,35,31,.12); border-radius: 4px; background: linear-gradient(145deg, rgba(246,245,239,.96), #fff 70%); }
+.capability-detail .capability-specific:before { content: ''; display: block; width: 58px; height: 4px; margin-bottom: 22px; background: #b59a65; }
+.capability-detail .capability-specific h2 { max-width: 15ch; }
+.capability-detail .capability-specific > .body-copy { max-width: 58ch; line-height: 1.9; }
+.capability-detail .capability-specific h3 { margin-top: 30px; }
+.capability-detail .capability-outcome { margin-top: 28px; padding: 20px 22px; border-inline-start: 3px solid #b59a65; background: rgba(181,154,101,.10); }
+.capability-detail .capability-outcome p { margin-bottom: 0; line-height: 1.85; }
+.capability-detail.service-strategy .capability-specific { background: linear-gradient(145deg,#f0f2ee,#fff 72%); }
+.capability-detail.service-business-development .capability-specific { background: linear-gradient(145deg,#f7f0e6,#fff 72%); }
+.capability-detail.service-restructuring .capability-specific { background: linear-gradient(145deg,#eef1f4,#fff 72%); }
+.capability-detail.service-feasibility .capability-specific { background: linear-gradient(145deg,#f4f0e9,#fff 72%); }
+.capability-detail.service-investment .capability-specific,
+.capability-detail.service-portfolio .capability-specific { background: linear-gradient(145deg,#eef3f0,#fff 72%); }
+.capability-detail.service-fundraising .capability-specific { background: linear-gradient(145deg,#f5efe8,#fff 72%); }
+.capability-detail.service-risk .capability-specific { background: linear-gradient(145deg,#edf1f3,#fff 72%); }
+.capability-detail.service-economics .capability-specific { background: linear-gradient(145deg,#f4f2e8,#fff 72%); }
+@media(max-width:700px){.homepage-sector-preview{grid-template-columns:1fr}.homepage-sector-preview .sector-tile{min-height:250px}.capability-detail .capability-specific{padding:24px 18px}}
