@@ -328,3 +328,12 @@ html[lang="ar"] body, html[lang="ar"] body * { font-style: normal !important; }
 html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] h4, html[lang="ar"] .brand strong, html[lang="ar"] .btn, html[lang="ar"] .nav { font-family: 'IBM Plex Sans Arabic', 'Noto Sans Arabic', Arial, sans-serif; font-weight: 600; letter-spacing: 0; }
 html[lang="ar"] h1, html[lang="ar"] .hero h1, html[lang="ar"] .page-hero h1 { font-weight: 700; }
 html[lang="ar"] .hero em, html[lang="ar"] .section-heading em, html[lang="ar"] .inquiry-intro h2 em { font-style: normal !important; }
+
+/* Homepage-only refinement for the approach section */
+.index-page .approach-band{padding-block:clamp(48px,7vw,88px)}
+.index-page .approach-band .approach-grid{gap:clamp(28px,5vw,64px);align-items:center}
+.index-page .approach-band h2{max-width:600px;text-wrap:balance;line-height:1.5}
+.index-page .approach-band .steps{padding-top:8px}
+.index-page .approach-band .steps div{align-items:center;gap:24px;padding:16px 4px}
+.index-page .approach-band .steps p{margin:0;line-height:1.8}
+@media(max-width:760px){.index-page .approach-band .approach-grid{grid-template-columns:1fr;gap:28px}.index-page .approach-band .steps div{padding:13px 0}}
