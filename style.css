@@ -328,3 +328,6 @@ html[lang="ar"] body, html[lang="ar"] body * { font-style: normal !important; }
 html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] h4, html[lang="ar"] .brand strong, html[lang="ar"] .btn, html[lang="ar"] .nav { font-family: 'IBM Plex Sans Arabic', 'Noto Sans Arabic', Arial, sans-serif; font-weight: 600; letter-spacing: 0; }
 html[lang="ar"] h1, html[lang="ar"] .hero h1, html[lang="ar"] .page-hero h1 { font-weight: 700; }
 html[lang="ar"] .hero em, html[lang="ar"] .section-heading em, html[lang="ar"] .inquiry-intro h2 em { font-style: normal !important; }
+
+/* Homepage: four featured sectors only, with a clear path to the full sector directory. */
+.home-sector-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.home-sectors-action{display:flex;justify-content:center;margin-top:28px}.home-sectors-action .btn{min-width:210px;justify-content:center}@media(max-width:900px){.home-sector-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.home-sector-grid{grid-template-columns:1fr}.home-sector-grid .sector-tile{height:260px}}
