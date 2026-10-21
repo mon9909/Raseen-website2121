@@ -359,3 +359,6 @@ html[lang="ar"] .hero em, html[lang="ar"] .section-heading em, html[lang="ar"] .
 .capability-detail.service-risk .capability-specific { background: linear-gradient(145deg,#edf1f3,#fff 72%); }
 .capability-detail.service-economics .capability-specific { background: linear-gradient(145deg,#f4f2e8,#fff 72%); }
 @media(max-width:700px){.homepage-sector-preview{grid-template-columns:1fr}.homepage-sector-preview .sector-tile{min-height:250px}.capability-detail .capability-specific{padding:24px 18px}}
+
+/* Completed market-study points */
+.market-study-content ul.market-study-points{margin:5px 0 10px;padding-inline-start:18px;color:#68777b;font-size:13px;line-height:1.85;list-style:disc}.market-study-content ul.market-study-points li{margin:0 0 3px}
