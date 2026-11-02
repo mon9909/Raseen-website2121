@@ -48,4 +48,4 @@ This internal note does not replace any attribution required by the applicable l
 - Energy sector: “Rabigh Power Plant.jpg”, photograph by HUTA Group photographer, Wikimedia Commons, CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Rabigh_Power_Plant.jpg
 - Healthcare sector: “Saudi Hospital Main Building.jpg”, author Yazan.shawahneh, Wikimedia Commons, CC0 1.0. Source: https://commons.wikimedia.org/wiki/File:Saudi_Hospital_Main_Building.jpg
 
-Homepage hero image note: The homepage hero uses a real KAFD photograph from Wikimedia Commons, File:KAFD 27.jpg, dedicated to the public domain under CC0 1.0: https://commons.wikimedia.org/wiki/File:KAFD_27.jpg. The image is cropped responsively and color-treated through CSS.
+Homepage hero image note: The homepage uses a non-location-specific photograph of contemporary glass office architecture, with a restrained forest-green overlay. The image is decorative and is not intended to represent a specific city or landmark.

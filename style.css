@@ -317,7 +317,7 @@ em, i, cite, dfn, var { font-style: normal; }
 /* Consistent non-italic Arabic across headings, emphasized phrases and card copy */
 html[lang="ar"] body,html[lang="ar"] body *{font-style:normal}
 
-.hero{background-image:linear-gradient(90deg,#102b37ed 0%,#102b37b8 48%,#102b3740 100%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Riyadh_Skyline.jpg?width=2200");background-position:center;background-size:cover}
+.hero{background-image:linear-gradient(90deg,#102b37ed 0%,#102b37b8 48%,#102b3740 100%),url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85");background-position:center;background-size:cover}
 
 .hero{position:relative}.hero-photo-credit{position:absolute;bottom:12px;inset-inline-end:20px;color:#ffffffb8;font-size:10px;line-height:1.4;text-decoration:underline;text-underline-offset:3px}.hero-photo-credit:hover{color:#fff}
 
@@ -366,11 +366,11 @@ html[lang="ar"] .hero em, html[lang="ar"] .section-heading em, html[lang="ar"] .
 /* RASEEN contact section */
 .home-contact{background:#e9e5dc}.home-contact .section-heading{margin-bottom:18px}.home-contact-email{display:inline-block;font:700 clamp(20px,3vw,30px) Manrope,sans-serif;color:#203541;border-bottom:1px solid #b99762;padding-bottom:6px;direction:ltr}.home-contact-email:hover{color:#9a7745}
 
-/* RASEEN homepage hero: calm KAFD skyline with palm trees */
+/* RASEEN homepage hero: neutral professional architectural photography */
 body.index-page .hero {
   background-image:
     linear-gradient(90deg, rgba(16,43,55,.82) 0%, rgba(16,43,55,.56) 52%, rgba(16,43,55,.18) 100%),
-    url('https://blog.sothebysrealty.sa/hubfs/Najdi%20Courtyards%20to%20The%20Red%20Sea.jpg') !important;
+    url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85') !important;
   background-position: center 54%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -428,7 +428,7 @@ body.index-page .hero{
   background-color:#102b45;
   background-image:
     linear-gradient(90deg, rgba(8,27,49,.94) 0%, rgba(11,35,61,.82) 37%, rgba(11,35,61,.42) 67%, rgba(11,35,61,.14) 100%),
-    url('https://images.pexels.com/photos/36769041/pexels-photo-36769041.jpeg?auto=compress&cs=tinysrgb&w=2400');
+    url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85');
   background-position:center center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -458,7 +458,7 @@ body.index-page .hero-actions .btn-primary{background:#d3b783;color:#142c40;bord
 body.index-page .hero-actions .btn-ghost{border:1px solid rgba(235,220,193,.68);color:#f7f8fa;background:rgba(8,27,49,.16)}
 body.index-page .hero-actions .btn:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.18)}
 @media(max-width:850px){
- body.index-page .hero{min-height:620px;background-position:58% center;background-image:linear-gradient(90deg,rgba(8,27,49,.88),rgba(11,35,61,.64)),url('https://images.pexels.com/photos/36769041/pexels-photo-36769041.jpeg?auto=compress&cs=tinysrgb&w=1800')}
+ body.index-page .hero{min-height:620px;background-position:58% center;background-image:linear-gradient(90deg,rgba(8,27,49,.88),rgba(11,35,61,.64)),url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=85')}
  body.index-page .hero .container{width:calc(100% - 40px);margin:0 auto;text-align:right;padding-block:58px}
  body.index-page .hero h1{font-size:clamp(38px,7vw,58px)}
 }
@@ -474,7 +474,7 @@ body.index-page .hero-actions .btn:hover{transform:translateY(-2px);box-shadow:0
 :root{--raseen-ink:#203541;--raseen-green:#073b3b;--raseen-gold:#b99762;--raseen-champagne:#f7f4ee;--raseen-ivory:#fffdf8;--raseen-muted:#68777b}
 body{background:var(--raseen-champagne);color:var(--raseen-ink);font-family:'IBM Plex Sans Arabic',Arial,sans-serif;font-size:15px;line-height:1.85}
 h1,h2,h3,h4,p,.btn,.nav{font-family:'IBM Plex Sans Arabic',Arial,sans-serif;font-style:normal}
-body.index-page .hero{min-height:clamp(590px,calc(100svh - 80px),760px);background-color:#d9d0bd;background-image:linear-gradient(90deg,rgba(247,244,238,.08) 0%,rgba(247,244,238,.16) 44%,rgba(247,244,238,.48) 100%),url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/KAFD_27.jpg/1920px-KAFD_27.jpg');background-position:center 48%;background-size:cover;background-repeat:no-repeat;color:var(--raseen-ink);position:relative;isolation:isolate}
+body.index-page .hero{min-height:clamp(590px,calc(100svh - 80px),760px);background-color:#d9d0bd;background-image:linear-gradient(90deg,rgba(247,244,238,.08) 0%,rgba(247,244,238,.16) 44%,rgba(247,244,238,.48) 100%),url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85');background-position:center 48%;background-size:cover;background-repeat:no-repeat;color:var(--raseen-ink);position:relative;isolation:isolate}
 body.index-page .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(32,53,65,.05),rgba(247,244,238,.12) 42%,rgba(247,244,238,.64));z-index:-1}
 body.index-page .hero .container{width:min(1240px,calc(100% - 64px));margin-inline:auto;padding:clamp(50px,7vw,100px) 0;text-align:right;direction:rtl}
 body.index-page .hero .eyebrow{color:#80643d;font-size:12px;letter-spacing:.02em;font-weight:700}
@@ -505,3 +505,136 @@ body.index-page .hero-actions .btn:hover{box-shadow:0 10px 26px rgba(32,53,65,.1
 @media(min-width:1100px){.home-contact-card{padding:30px 40px}.home-contact-heading{margin-bottom:34px}.hero .container{max-width:1240px}}
 @media(max-width:850px){body.index-page .hero{min-height:600px;background-position:55% center}body.index-page .hero:before{background:linear-gradient(180deg,rgba(247,244,238,.28),rgba(247,244,238,.7))}body.index-page .hero .container{width:calc(100% - 40px);padding-block:54px}.home-contact-heading{align-items:flex-start;flex-direction:column}.home-contact-card{padding:22px 20px}}
 @media(max-width:520px){body.index-page .hero{min-height:590px;background-position:54% center}body.index-page .hero .container{width:calc(100% - 30px);padding-block:40px}body.index-page .hero h1{font-size:clamp(35px,10vw,46px)}body.index-page .hero .container>p:not(.eyebrow){font-size:14px}.home-contact-card{align-items:flex-start;gap:12px;padding:18px 14px}.home-contact-icon{width:40px;height:40px;flex-basis:40px;font-size:19px}.home-contact-email{font-size:16px}.home-contact-arrow{width:34px;height:34px;flex-basis:34px}}
+
+
+/* Final language-direction pass: English pages render consistently left-to-right. */
+html[lang="en"] body {
+  direction: ltr;
+  text-align: left;
+  font-family: Manrope, Arial, sans-serif;
+}
+html[lang="en"] .site-header,
+html[lang="en"] .header-inner,
+html[lang="en"] .brand,
+html[lang="en"] .nav,
+html[lang="en"] .header-actions,
+html[lang="en"] .footer-grid,
+html[lang="en"] .footer-bottom,
+html[lang="en"] .footer-links,
+html[lang="en"] .home-contact-heading,
+html[lang="en"] .home-contact-card,
+html[lang="en"] .home-contact-copy,
+html[lang="en"] .inquiry-layout,
+html[lang="en"] .inquiry-fields,
+html[lang="en"] .form-grid {
+  direction: ltr;
+}
+html[lang="en"] .nav { flex-direction: row; }
+html[lang="en"] .site-header,
+html[lang="en"] .site-footer,
+html[lang="en"] main,
+html[lang="en"] section,
+html[lang="en"] .container,
+html[lang="en"] .section-heading,
+html[lang="en"] .intro-copy,
+html[lang="en"] .approach-grid,
+html[lang="en"] .steps,
+html[lang="en"] .inquiry-intro,
+html[lang="en"] .form-card,
+html[lang="en"] .field,
+html[lang="en"] .footer-brand,
+html[lang="en"] .footer-contact {
+  text-align: left;
+}
+html[lang="en"] .sector-carousel-track { direction: ltr; }
+html[lang="en"] .sector-tile span,
+html[lang="en"] .sector-tile h3,
+html[lang="en"] .sector-overlay-copy {
+  right: auto;
+  left: 22px;
+  text-align: left;
+}
+html[lang="en"] .market-study-content,
+html[lang="en"] .market-study-content h3,
+html[lang="en"] .market-study-content p,
+html[lang="en"] .market-study-points,
+html[lang="en"] .market-study-points li,
+html[lang="en"] .service-card,
+html[lang="en"] .sector-detail,
+html[lang="en"] .insight-card,
+html[lang="en"] .insight-list article {
+  direction: ltr;
+  text-align: left;
+}
+html[lang="en"] .home-contact-heading { align-items: flex-end; }
+html[lang="en"] .home-contact-card { flex-direction: row; }
+html[lang="en"] .home-contact-copy > span,
+html[lang="en"] .footer-email-card span,
+html[lang="en"] .footer-email-card small {
+  direction: ltr;
+  text-align: left;
+  letter-spacing: .08em;
+}
+html[lang="en"] .home-contact-email,
+html[lang="en"] .footer-email-card,
+html[lang="en"] .footer-email-card strong,
+html[lang="en"] input[type="email"],
+html[lang="en"] input[type="url"] {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: isolate;
+}
+html[lang="en"] .footer-email-card { align-items: flex-start; }
+html[lang="en"] .field input,
+html[lang="en"] .field select,
+html[lang="en"] .field textarea,
+html[lang="en"] .field label,
+html[lang="en"] .field-hint,
+html[lang="en"] .form-status,
+html[lang="en"] .form-footnote {
+  direction: ltr;
+  text-align: left;
+}
+html[lang="en"] .inquiry-points,
+html[lang="en"] .inquiry-points > div { direction: ltr; text-align: left; }
+html[lang="en"] .inquiry-submit > .btn { direction: ltr; }
+html[lang="en"] .hero .container,
+html[lang="en"] body.index-page .hero .container {
+  direction: ltr;
+  text-align: left;
+}
+html[lang="en"] body.index-page .hero .container > p:not(.eyebrow) { text-align: left; }
+html[lang="en"] body.index-page .hero-actions { justify-content: flex-start; }
+html[lang="en"] .checks { padding-left: 0; padding-right: 0; }
+html[lang="en"] .steps div { flex-direction: row; }
+html[lang="en"] .page-hero,
+html[lang="en"] .page-hero > .container { direction: ltr; text-align: left; }
+
+/* A neutral, real architectural photograph: professional, non-location-specific and not a landmark. */
+body.index-page .hero {
+  background-image:
+    linear-gradient(90deg, rgba(7,59,59,.82) 0%, rgba(7,59,59,.62) 48%, rgba(7,59,59,.30) 100%),
+    url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85") !important;
+  background-position: center 48%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fffdf8;
+}
+body.index-page .hero:before {
+  background: linear-gradient(90deg, rgba(7,59,59,.10), rgba(7,59,59,.16) 55%, rgba(7,59,59,.32));
+}
+body.index-page .hero .eyebrow { color: #e0c18a; }
+body.index-page .hero h1 { color: #fffdf8; text-shadow: 0 2px 18px rgba(0,0,0,.12); }
+body.index-page .hero h1 em { color: #e0c18a; }
+body.index-page .hero .container > p:not(.eyebrow) { color: rgba(255,253,248,.90); }
+body.index-page .hero-actions .btn-primary { background: #d9c49a; color: #203541; border-color: #d9c49a; }
+body.index-page .hero-actions .btn-ghost { color: #fffdf8; border-color: rgba(255,253,248,.72); background: rgba(7,59,59,.22); }
+@media (max-width: 850px) {
+  html[lang="en"] .nav { flex-direction: column; }
+  html[lang="en"] body.index-page .hero .container { text-align: left; }
+  html[lang="en"] .home-contact-heading { align-items: flex-start; }
+}
+@media (max-width: 520px) {
+  html[lang="en"] .home-contact-card { flex-direction: row; }
+  html[lang="en"] .footer-bottom { align-items: flex-start; }
+}
