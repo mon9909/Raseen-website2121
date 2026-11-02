@@ -362,3 +362,25 @@ html[lang="ar"] .hero em, html[lang="ar"] .section-heading em, html[lang="ar"] .
 
 /* Completed market-study points */
 .market-study-content ul.market-study-points{margin:5px 0 10px;padding-inline-start:18px;color:#68777b;font-size:13px;line-height:1.85;list-style:disc}.market-study-content ul.market-study-points li{margin:0 0 3px}
+
+/* RASEEN contact refinement: restrained, responsive, and consistent with the existing identity */
+.home-contact{padding-block:clamp(42px,6vw,76px);background:linear-gradient(115deg,#102b37 0%,#183b43 100%);color:#f7f5ef}
+.home-contact-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:32px}
+.home-contact .eyebrow{color:#c9b17e;margin:0 0 12px}
+.home-contact h2{max-width:650px;margin:0 0 10px;font-size:clamp(24px,3vw,36px);line-height:1.5;color:#fff}
+.home-contact p:not(.eyebrow){max-width:600px;margin:0;color:#d1d9d6;font-size:14px;line-height:1.9}
+.home-contact-email{display:flex;align-items:center;gap:14px;min-width:min(100%,340px);padding:18px 20px;border:1px solid #ffffff38;border-radius:4px;color:#fff;text-decoration:none;background:#ffffff0b;transition:background .25s,border-color .25s,transform .25s}
+.home-contact-email:hover{background:#ffffff16;border-color:#c9b17e;transform:translateY(-3px)}
+.contact-mail-icon{display:grid;place-items:center;width:42px;height:42px;border:1px solid #c9b17e66;border-radius:50%;color:#d4bc8b;font-size:20px}
+.home-contact-email small{display:block;margin-bottom:4px;color:#c9b17e;font-size:10px;letter-spacing:.08em}
+.home-contact-email strong{font-family:Manrope,Arial,sans-serif;font-size:14px;font-weight:600;direction:ltr;unicode-bidi:embed}
+.contact-arrow{margin-inline-start:auto;color:#d4bc8b;font-size:20px}
+.inquiry-direct-email{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:24px 0;padding:14px 16px;border-inline-start:3px solid #b99762;background:#f1eee7;color:#536267;text-decoration:none;font-size:12px}
+.inquiry-direct-email strong{color:#173944;font-family:Manrope,Arial,sans-serif;font-size:13px;direction:ltr;unicode-bidi:embed}
+.email-inquiry{display:inline-flex;align-items:center;justify-content:center;margin-top:10px;text-decoration:none}
+.inquiry-form-card{transition:box-shadow .25s,border-color .25s}
+.inquiry-form-card:focus-within{border-color:#b9976270;box-shadow:0 24px 70px #142c3618}
+.btn,.service-card,.market-study-card,.sector-tile{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.btn:hover{transform:translateY(-2px)}
+@media(max-width:760px){.home-contact-inner{grid-template-columns:1fr;gap:22px}.home-contact-email{width:100%;min-width:0}.home-contact h2{font-size:26px}}
+@media(prefers-reduced-motion:reduce){.home-contact-email,.inquiry-form-card,.btn,.service-card,.market-study-card,.sector-tile{transition:none}.home-contact-email:hover,.btn:hover{transform:none}}
