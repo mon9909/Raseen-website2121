@@ -380,3 +380,92 @@ body.index-page .hero {
     background-position: 58% center;
   }
 }
+
+
+/* Refined corporate contact presentation */
+.home-contact{background:#e9e5dc}
+.home-contact-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:28px;margin-bottom:28px}
+.home-contact-heading>div{max-width:680px}
+.home-contact-heading h2{margin-bottom:12px}
+.home-contact-heading p{max-width:620px;color:#647378;line-height:1.9}
+.home-contact-card{display:flex;align-items:center;gap:20px;max-width:760px;padding:24px 28px;background:rgba(255,255,255,.72);border:1px solid rgba(32,53,65,.12);border-radius:5px;box-shadow:0 12px 34px rgba(20,44,54,.06);transition:transform .25s ease,box-shadow .25s ease}
+.home-contact-card:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(20,44,54,.10)}
+.home-contact-icon{display:grid;place-items:center;flex:0 0 48px;width:48px;height:48px;border:1px solid #c9b58f;border-radius:50%;color:#8c7045;font:600 22px Manrope,sans-serif}
+.home-contact-copy{display:grid;gap:5px;min-width:0}
+.home-contact-copy>span,.footer-email-card span{color:#8b7657;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.home-contact-email{display:inline-block;width:fit-content;font:700 clamp(19px,2.5vw,26px) Manrope,sans-serif;color:#203541;text-decoration:none;direction:ltr;border-bottom:1px solid #b99762;padding-bottom:4px;overflow-wrap:anywhere}
+.home-contact-copy small{color:#748084;font-size:12px}
+.home-contact-arrow{margin-inline-start:auto;display:grid;place-items:center;flex:0 0 38px;width:38px;height:38px;border:1px solid rgba(32,53,65,.18);border-radius:50%;color:#203541;text-decoration:none;font-size:20px;transition:background .2s,color .2s}
+.home-contact-arrow:hover{background:#203541;color:#fff}
+.footer-contact .footer-links{gap:12px}
+.footer-email-card{display:grid;gap:5px;padding:13px 14px;border:1px solid rgba(255,255,255,.16);border-radius:4px;background:rgba(255,255,255,.045);text-decoration:none!important;direction:ltr;text-align:left;transition:background .2s,border-color .2s}
+.footer-email-card:hover{background:rgba(255,255,255,.09);border-color:rgba(213,183,127,.65)}
+.footer-email-card span,.footer-email-card small{direction:rtl;text-align:right}
+.footer-email-card strong{color:#fff;font:600 13px Manrope,sans-serif;overflow-wrap:anywhere}
+.footer-email-card small{color:#b7c2c4;font-size:10px}
+@media(max-width:700px){.home-contact-heading{align-items:flex-start;flex-direction:column}.home-contact-card{padding:18px 16px;gap:13px}.home-contact-icon{flex-basis:40px;width:40px;height:40px}.home-contact-email{font-size:17px}.footer-email-card strong{font-size:12px}}
+
+
+/* Discreet institutional close before the footer */
+.home-closing-note{padding:34px 0;background:#f1eee7;border-top:1px solid #20354112}
+.home-closing-note>.container{display:flex;align-items:center;justify-content:space-between;gap:28px}
+.home-closing-copy{max-width:700px}
+.home-closing-copy .eyebrow{margin:0 0 6px}
+.home-closing-copy h2{font-size:clamp(20px,2.5vw,28px);line-height:1.45;margin:0 0 5px;color:#203541}
+.home-closing-copy p:last-child{margin:0;color:#68777b;font-size:13px}
+.home-closing-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.home-closing-actions>a:first-child{font:700 13px Manrope,sans-serif;color:#203541;direction:ltr;white-space:nowrap}
+.sector-expand-toggle[aria-expanded="true"]{color:#9a7745}
+@media(max-width:700px){.home-closing-note>.container{align-items:flex-start;flex-direction:column;gap:16px}.home-closing-actions{width:100%;justify-content:space-between}}
+@media(max-width:520px){.home-closing-actions{align-items:flex-start;flex-direction:column;gap:12px}.home-closing-actions .btn{width:100%;text-align:center}}
+
+/* Homepage hero refinement — preserves the existing header and logo assets */
+body.index-page .hero{
+  min-height: min(760px, calc(100svh - 80px));
+  display:flex;
+  align-items:center;
+  color:#f7f8fa;
+  background-color:#102b45;
+  background-image:
+    linear-gradient(90deg, rgba(8,27,49,.94) 0%, rgba(11,35,61,.82) 37%, rgba(11,35,61,.42) 67%, rgba(11,35,61,.14) 100%),
+    url('https://images.pexels.com/photos/36769041/pexels-photo-36769041.jpeg?auto=compress&cs=tinysrgb&w=2400');
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+body.index-page .hero .container{
+  width:min(1160px,calc(100% - 40px));
+  margin-left:auto;
+  margin-right:6%;
+  padding-block:72px;
+  text-align:left;
+  direction:rtl;
+}
+body.index-page .hero .eyebrow{color:#d7bd91;letter-spacing:.12em;margin-bottom:16px}
+body.index-page .hero h1{
+  max-width:690px;
+  color:#fbfcfd;
+  font-size:clamp(42px,5.4vw,72px);
+  line-height:1.28;
+  font-weight:600;
+  letter-spacing:-.035em;
+  text-shadow:0 3px 24px rgba(0,0,0,.18);
+}
+body.index-page .hero h1 em{color:#e0c18e}
+body.index-page .hero .container>p:not(.eyebrow){max-width:620px;color:rgba(244,247,250,.88);font-size:clamp(14px,1.35vw,17px);line-height:2;margin:22px 0 28px}
+body.index-page .hero-actions{gap:12px;align-items:center}
+body.index-page .hero-actions .btn-primary{background:#d3b783;color:#142c40;border:1px solid #d3b783}
+body.index-page .hero-actions .btn-ghost{border:1px solid rgba(235,220,193,.68);color:#f7f8fa;background:rgba(8,27,49,.16)}
+body.index-page .hero-actions .btn:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.18)}
+@media(max-width:850px){
+ body.index-page .hero{min-height:620px;background-position:58% center;background-image:linear-gradient(90deg,rgba(8,27,49,.88),rgba(11,35,61,.64)),url('https://images.pexels.com/photos/36769041/pexels-photo-36769041.jpeg?auto=compress&cs=tinysrgb&w=1800')}
+ body.index-page .hero .container{width:calc(100% - 40px);margin:0 auto;text-align:right;padding-block:58px}
+ body.index-page .hero h1{font-size:clamp(38px,7vw,58px)}
+}
+@media(max-width:520px){
+ body.index-page .hero{min-height:600px;background-position:58% center}
+ body.index-page .hero .container{width:calc(100% - 30px);padding-block:42px}
+ body.index-page .hero .container>p:not(.eyebrow){font-size:14px}
+ body.index-page .hero-actions{align-items:stretch;flex-direction:column;max-width:310px}
+ body.index-page .hero-actions .btn{text-align:center;width:100%}
+}
