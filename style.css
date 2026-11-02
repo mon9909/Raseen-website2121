@@ -363,24 +363,84 @@ html[lang="ar"] .hero em, html[lang="ar"] .section-heading em, html[lang="ar"] .
 /* Completed market-study points */
 .market-study-content ul.market-study-points{margin:5px 0 10px;padding-inline-start:18px;color:#68777b;font-size:13px;line-height:1.85;list-style:disc}.market-study-content ul.market-study-points li{margin:0 0 3px}
 
-/* RASEEN contact refinement: restrained, responsive, and consistent with the existing identity */
-.home-contact{padding-block:clamp(42px,6vw,76px);background:linear-gradient(115deg,#102b37 0%,#183b43 100%);color:#f7f5ef}
-.home-contact-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:32px}
-.home-contact .eyebrow{color:#c9b17e;margin:0 0 12px}
-.home-contact h2{max-width:650px;margin:0 0 10px;font-size:clamp(24px,3vw,36px);line-height:1.5;color:#fff}
-.home-contact p:not(.eyebrow){max-width:600px;margin:0;color:#d1d9d6;font-size:14px;line-height:1.9}
-.home-contact-email{display:flex;align-items:center;gap:14px;min-width:min(100%,340px);padding:18px 20px;border:1px solid #ffffff38;border-radius:4px;color:#fff;text-decoration:none;background:#ffffff0b;transition:background .25s,border-color .25s,transform .25s}
-.home-contact-email:hover{background:#ffffff16;border-color:#c9b17e;transform:translateY(-3px)}
-.contact-mail-icon{display:grid;place-items:center;width:42px;height:42px;border:1px solid #c9b17e66;border-radius:50%;color:#d4bc8b;font-size:20px}
-.home-contact-email small{display:block;margin-bottom:4px;color:#c9b17e;font-size:10px;letter-spacing:.08em}
-.home-contact-email strong{font-family:Manrope,Arial,sans-serif;font-size:14px;font-weight:600;direction:ltr;unicode-bidi:embed}
-.contact-arrow{margin-inline-start:auto;color:#d4bc8b;font-size:20px}
-.inquiry-direct-email{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:24px 0;padding:14px 16px;border-inline-start:3px solid #b99762;background:#f1eee7;color:#536267;text-decoration:none;font-size:12px}
-.inquiry-direct-email strong{color:#173944;font-family:Manrope,Arial,sans-serif;font-size:13px;direction:ltr;unicode-bidi:embed}
-.email-inquiry{display:inline-flex;align-items:center;justify-content:center;margin-top:10px;text-decoration:none}
-.inquiry-form-card{transition:box-shadow .25s,border-color .25s}
-.inquiry-form-card:focus-within{border-color:#b9976270;box-shadow:0 24px 70px #142c3618}
-.btn,.service-card,.market-study-card,.sector-tile{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
-.btn:hover{transform:translateY(-2px)}
-@media(max-width:760px){.home-contact-inner{grid-template-columns:1fr;gap:22px}.home-contact-email{width:100%;min-width:0}.home-contact h2{font-size:26px}}
-@media(prefers-reduced-motion:reduce){.home-contact-email,.inquiry-form-card,.btn,.service-card,.market-study-card,.sector-tile{transition:none}.home-contact-email:hover,.btn:hover{transform:none}}
+
+/* RASEEN visual refinement — preserve all brand assets and page content */
+/* Homepage hero: distinctive Saudi architectural photography with a restrained advisory treatment. */
+.index-page .hero{
+  position:relative;isolation:isolate;overflow:hidden;
+  min-height:clamp(600px,74vh,780px);
+  background-image:linear-gradient(90deg,rgba(12,34,44,.54) 0%,rgba(12,34,44,.76) 42%,rgba(12,34,44,.94) 100%),url("https://upload.wikimedia.org/wikipedia/commons/8/8a/KAFD_Metro_Station_Riyadh_Saudi_Arabia_014.jpg");
+  background-position:center 52%;background-size:cover;
+}
+.index-page .hero:after{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.55;
+  background:linear-gradient(132deg,transparent 0 62%,rgba(213,183,127,.18) 62.08%,transparent 62.22%),
+    repeating-linear-gradient(90deg,transparent 0 112px,rgba(255,255,255,.045) 113px,transparent 114px);
+  mask-image:linear-gradient(90deg,transparent 34%,#000 100%);
+}
+.index-page .hero>.container{position:relative;z-index:1;max-width:1240px}
+.index-page .hero .eyebrow{display:flex;align-items:center;gap:13px;color:#e0c18a;letter-spacing:.18em}
+.index-page .hero .eyebrow:before{content:"";display:block;width:34px;height:1px;background:#d5b77f;opacity:.9}
+.index-page .hero h1{max-width:780px;text-wrap:balance;text-shadow:0 8px 32px rgba(0,0,0,.2)}
+.index-page .hero> .container>p:not(.eyebrow){max-width:610px;color:rgba(246,247,245,.86);line-height:2.15}
+.index-page .hero-actions{margin-top:28px;gap:12px}
+.index-page .hero-actions .btn{min-height:48px;display:inline-flex;align-items:center;justify-content:center;transition:transform .35s cubic-bezier(.2,.75,.2,1),background .35s,border-color .35s}
+.index-page .hero-actions .btn:hover{transform:translateY(-3px)}
+@media(max-width:700px){.index-page .hero{min-height:620px;background-position:54% center}.index-page .hero:after{opacity:.28}.index-page .hero> .container>p:not(.eyebrow){font-size:14px}}
+
+/* Replace the news-like moving ticker with a calm editorial capability strip. */
+.index-page .ticker{padding:19px 24px;background:#f0ece3;border-block:1px solid rgba(32,53,65,.12);}
+.index-page .ticker-track{width:auto;max-width:1240px;margin:auto;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px 30px;animation:none;font-size:10px;letter-spacing:.16em;color:#52636a;}
+.index-page .ticker-track span{display:inline-flex;align-items:center;gap:30px;white-space:nowrap;}
+.index-page .ticker-track span:after{content:"";width:4px;height:4px;display:inline-block;border-radius:50%;background:#b99762;margin:0;}
+@media(max-width:600px){.index-page .ticker{padding:16px 14px}.index-page .ticker-track{gap:8px 17px;font-size:9px}.index-page .ticker-track span{gap:17px}}
+
+/* Sector page: editorial grid, generous imagery and calm interaction instead of an old-style slider. */
+.sectors-showcase{background:linear-gradient(180deg,#f7f4ee 0%,#f1eee7 100%)}
+.sector-carousel{overflow:visible;padding:8px 2px 22px;scroll-snap-type:none;}
+.sector-carousel-track{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;direction:rtl;align-items:stretch;}
+.sector-card{position:relative;display:flex;flex-direction:column;overflow:hidden;min-width:0;flex:none;scroll-snap-align:none;border:1px solid rgba(32,53,65,.12);border-radius:7px;background:#fffdf8;box-shadow:0 8px 26px rgba(20,44,54,.055);transition:opacity .75s ease,transform .65s cubic-bezier(.2,.75,.25,1),box-shadow .45s ease,border-color .45s ease;}
+.sector-card.reveal{transform:translateY(22px) scale(.99);}
+.sector-card.reveal.is-visible{transform:translateY(0) scale(1);}
+.sector-card:hover,.sector-card:focus-within{transform:translateY(-8px) scale(1)!important;box-shadow:0 22px 52px rgba(20,44,54,.13);border-color:rgba(185,151,98,.58);}
+.sector-card>img{height:235px;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1),filter .6s ease;}
+.sector-card:hover>img,.sector-card:focus-within>img{transform:scale(1.055);filter:saturate(1.06);}
+.sector-card-content{flex:1;padding:24px 24px 20px;min-height:225px;}
+.sector-card-content>.eyebrow{font-size:9px;letter-spacing:.18em;color:#a98750;}
+.sector-card h3{font-size:21px;line-height:1.55;margin:9px 0 4px;color:#203541;}
+.sector-card-content>p{font-size:13px;line-height:2;color:#68777b;margin:5px 0 22px;}
+.sector-expand-toggle{padding:13px 0 3px;border-top:1px solid rgba(32,53,65,.13);color:#8f6d3d;transition:color .3s ease,border-color .3s ease;}
+.sector-expand-toggle:hover{color:#203541;border-color:rgba(185,151,98,.7);}
+.sector-expand-toggle:after{content:"＋";font-size:15px;transition:transform .35s cubic-bezier(.2,.7,.2,1);}
+.sector-expand-toggle[aria-expanded="true"]:after{transform:rotate(45deg);}
+.sector-expanded{padding-top:15px;animation:sectorReveal .4s cubic-bezier(.2,.7,.2,1) both;}
+.sector-expanded li{font-size:12px;line-height:1.9;padding:9px 0;}
+.sector-carousel-controls{display:none;}
+@media(max-width:980px){.sector-carousel-track{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.sector-card>img{height:220px}}
+@media(max-width:600px){.sector-carousel-track{grid-template-columns:1fr;gap:16px}.sector-card>img{height:230px}.sector-card-content{padding:21px;min-height:0}.sector-card h3{font-size:20px}.sector-card:hover,.sector-card:focus-within{transform:translateY(-3px)!important}}
+@media(prefers-reduced-motion:reduce){.sector-card,.sector-card>img,.sector-expanded,.index-page .hero-actions .btn{transition:none!important;animation:none!important}.sector-card.reveal{transform:none!important;opacity:1!important}}
+
+/* Footer contact treatment: a discreet, premium email panel; logo remains untouched. */
+.site-footer{padding:58px 0 22px;background:linear-gradient(135deg,#142c36 0%,#102630 100%)}
+.footer-grid{grid-template-columns:1.65fr 1fr 1.35fr;gap:clamp(28px,4vw,58px);align-items:start}
+.footer-title{font-family:'IBM Plex Sans Arabic',sans-serif;font-size:11px;letter-spacing:0;color:#d5b77f;margin:4px 0 18px;}
+.footer-links{gap:11px;font-size:13px;}
+.footer-links a{width:max-content;max-width:100%;transition:color .25s ease,transform .25s ease;}
+.footer-links a:hover{color:#e3c58e;transform:translateX(-3px);}
+.footer-contact-column .footer-links{margin-bottom:20px;}
+.footer-email-card{display:flex;align-items:center;gap:12px;width:min(100%,350px);padding:14px 15px;border:1px solid rgba(213,183,127,.3);border-radius:6px;background:linear-gradient(120deg,rgba(255,255,255,.075),rgba(255,255,255,.025));transition:background .3s ease,border-color .3s ease,transform .3s ease;}
+.footer-email-card:hover{background:rgba(213,183,127,.11);border-color:rgba(213,183,127,.7);transform:translateY(-3px);}
+.footer-email-icon{display:grid;place-items:center;flex:0 0 38px;width:38px;height:38px;border:1px solid rgba(213,183,127,.35);border-radius:5px;color:#e0c18a;}
+.footer-email-icon svg{width:19px;height:19px;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+.footer-email-copy{display:flex;flex-direction:column;gap:2px;min-width:0;}
+.footer-email-copy small{font-size:10px;color:#c3cdce;}
+.footer-email-copy strong{font:600 12px Manrope,sans-serif;letter-spacing:.005em;color:#fff;overflow-wrap:anywhere;}
+.footer-email-arrow{margin-inline-start:auto;color:#d5b77f;font:700 17px Manrope,sans-serif;transition:transform .3s ease;}
+.footer-email-card:hover .footer-email-arrow{transform:translate(3px,-3px);}
+.footer-bottom{margin-top:38px;padding-top:19px;}
+@media(max-width:850px){.footer-grid{grid-template-columns:1fr 1fr;gap:32px}.footer-brand{grid-column:1/-1}.footer-contact-column{grid-column:1/-1}.footer-email-card{width:min(100%,420px)}}
+@media(max-width:520px){.site-footer{padding:42px 0 18px}.footer-grid{grid-template-columns:1fr;gap:26px}.footer-brand,.footer-contact-column{grid-column:auto}.footer-email-card{width:100%}.footer-bottom{gap:8px}}
+
+/* Hide the form honeypot from people while retaining bot filtering. */
+.form-honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important;}
+.inquiry-submit>.btn:disabled{opacity:.65;cursor:wait;transform:none;}
