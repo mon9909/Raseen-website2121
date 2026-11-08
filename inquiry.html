@@ -17,15 +17,15 @@
 <div class="inquiry-points"><div><span>01</span><p data-ar="نطاق واضح" data-en="A clear scope">نطاق واضح</p><small data-ar="ما الذي تريد الوصول إليه؟" data-en="What are you trying to achieve?">ما الذي تريد الوصول إليه؟</small></div><div><span>02</span><p data-ar="سياق كافٍ" data-en="Useful context">سياق كافٍ</p><small data-ar="السوق أو القطاع والجدول الزمني التقريبي." data-en="Market, sector, and indicative timeline.">السوق أو القطاع والجدول الزمني التقريبي.</small></div><div><span>03</span><p data-ar="خطوة تالية" data-en="A next step">خطوة تالية</p><small data-ar="نرتب المعلومات لتسهيل مناقشة الطلب." data-en="Organize the details for a focused discussion.">نرتب المعلومات لتسهيل مناقشة الطلب.</small></div></div>
 
 </aside>
-<div class="form-card inquiry-form-card reveal"><div class="form-card-heading"><p class="eyebrow" data-ar="معلومات الطلب" data-en="INQUIRY DETAILS">معلومات الطلب</p><h2 data-ar="ما الذي يمكننا مساعدتك فيه؟" data-en="How can we help?">ما الذي يمكننا مساعدتك فيه؟</h2><p data-ar="جميع الخانات اختيارية، ويمكنك إرسال الطلب بالمعلومات المتاحة لديك." data-en="All fields are optional. You can submit the inquiry with whatever information you wish to share.">جميع الخانات اختيارية، ويمكنك إرسال الطلب بالمعلومات المتاحة لديك.</p></div>
-<form action="https://formsubmit.co/info@raseenadvisory.com" method="POST">
-<input type="hidden" name="_subject" value="طلب جديد عبر موقع رَصين | RASEEN ADVISORY">
-<input type="hidden" name="_template" value="table">
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_next" value="https://raseenadvisory.com/thank-you.html">
-<input type="text" name="_honey" style="display:none">
+<div class="form-card inquiry-form-card reveal"><div class="form-card-heading"><p class="eyebrow" data-ar="معلومات الطلب" data-en="INQUIRY DETAILS">معلومات الطلب</p><h2 data-ar="ما الذي يمكننا مساعدتك فيه؟" data-en="How can we help?">ما الذي يمكننا مساعدتك فيه؟</h2><p data-ar="الاسم فقط حقل إجباري، وبقية الخانات اختيارية. يمكنك إرسال الطلب بالمعلومات المتاحة لديك." data-en="Only the name is required. All other fields are optional, and you can submit the inquiry with whatever information you wish to share.">الاسم فقط حقل إجباري، وبقية الخانات اختيارية. يمكنك إرسال الطلب بالمعلومات المتاحة لديك.</p></div>
+<form action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="e6b8ee81-f51f-4086-a82a-0009e57319de">
+<input type="hidden" name="subject" value="طلب جديد عبر موقع رَصين | RASEEN ADVISORY">
+<input type="hidden" name="from_name" value="RASEEN ADVISORY Website">
+<input type="hidden" name="redirect" value="https://raseenadvisory.com/thank-you.html">
+<input type="checkbox" name="botcheck" class="hidden" style="display:none">
 <div class="form-grid inquiry-fields">
-<div class="field"><label for="name"><span data-ar="الاسم (اختياري)" data-en="Name (optional)">الاسم (اختياري)</span></label><input id="name" name="name" autocomplete="name" data-placeholder-ar="الاسم الكامل" data-placeholder-en="Full name" placeholder="الاسم الكامل"></div>
+<div class="field"><label for="name"><span data-ar="الاسم (إجباري)" data-en="Name (required)">الاسم (إجباري)</span></label><input id="name" name="name" required autocomplete="name" data-placeholder-ar="الاسم الكامل" data-placeholder-en="Full name" placeholder="الاسم الكامل"></div>
 <div class="field"><label for="company" data-ar="الشركة / الجهة" data-en="Company / organization">الشركة / الجهة</label><input id="company" name="company" autocomplete="organization" data-placeholder-ar="اسم الشركة (اختياري)" data-placeholder-en="Company name (optional)" placeholder="اسم الشركة (اختياري)"></div>
 <div class="field"><label for="email"><span data-ar="البريد الإلكتروني (اختياري)" data-en="Email address (optional)">البريد الإلكتروني (اختياري)</span></label><input id="email" name="email" type="email" autocomplete="email" data-placeholder-ar="name@company.com" data-placeholder-en="name@company.com" placeholder="name@company.com"></div>
 <div class="field"><label for="country" data-ar="السوق المستهدف" data-en="Target market">السوق المستهدف</label><select id="country" name="country"><option value="" data-ar="اختر السوق (اختياري)" data-en="Select a market (optional)">اختر السوق (اختياري)</option><option value="Saudi Arabia" data-ar="السعودية" data-en="Saudi Arabia">السعودية</option><option value="Morocco" data-ar="المغرب" data-en="Morocco">المغرب</option><option value="Ethiopia" data-ar="إثيوبيا" data-en="Ethiopia">إثيوبيا</option><option value="Other" data-ar="سوق آخر" data-en="Other market">سوق آخر</option></select></div>
