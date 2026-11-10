@@ -776,10 +776,10 @@ html[lang="en"] .form-footnote { direction: ltr; text-align: left; }
 
 
 /* ===== RASEEN final integration (added): local fonts + Company Profile section ===== */
-@font-face{font-family:'RS Arial';src:url('fonts/arial.ttf') format('truetype');font-weight:100 500;font-style:normal;font-display:swap}
-@font-face{font-family:'RS Arial';src:url('fonts/arialbd.ttf') format('truetype');font-weight:600 900;font-style:normal;font-display:swap}
-@font-face{font-family:'RS Baiti';src:url('fonts/monbaiti.ttf') format('truetype');font-weight:100 900;font-style:normal;font-display:swap}
-@font-face{font-family:'RS Baiti Latin';src:url('fonts/monbaiti.ttf') format('truetype');font-weight:100 900;font-style:normal;font-display:swap;unicode-range:U+0041-005A,U+0061-007A,U+00C0-024F}
+@font-face{font-family:'RS Arial';src:url('arial.ttf') format('truetype');font-weight:100 500;font-style:normal;font-display:swap}
+@font-face{font-family:'RS Arial';src:url('arialbd.ttf') format('truetype');font-weight:600 900;font-style:normal;font-display:swap}
+@font-face{font-family:'RS Baiti';src:url('monbaiti.ttf') format('truetype');font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:'RS Baiti Latin';src:url('monbaiti.ttf') format('truetype');font-weight:100 900;font-style:normal;font-display:swap;unicode-range:U+0041-005A,U+0061-007A,U+00C0-024F}
 html[lang="ar"],html[lang="ar"] body,html[lang="ar"] body *,html[lang="ar"] body *::before,html[lang="ar"] body *::after{font-family:'RS Baiti Latin','RS Arial',Arial,sans-serif !important;font-synthesis:none}
 html[lang="en"],html[lang="en"] body,html[lang="en"] body *,html[lang="en"] body *::before,html[lang="en"] body *::after{font-family:'RS Baiti','Mongolian Baiti','RS Arial',Arial,serif !important;font-synthesis:none}
 
